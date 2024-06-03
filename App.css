@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+  }
+.btn{
+  transition: 0.4s;
+}
+.btn:hover{
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 500px){
+  .text{
+    display: none;
+  }
+  .q{
+    display: flex;
+  }
+  .ez{
+    font-size: 38px;
+  }
+  .cb{
+    justify-content: center;
+  }
+}
